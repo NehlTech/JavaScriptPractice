@@ -13,6 +13,12 @@
     <!-- ==== JS Files ==== -->
     <script defer src="js/script.js"></script>
     <script defer src="js/style-switcher.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/typed.umd.js"
+      integrity="sha512-+2pW8xXU/rNr7VS+H62aqapfRpqFwnSQh9ap6THjsm41AxgA0MhFRtfrABS+Lx2KHJn82UOrnBKhjZOXpom2LQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
     <!-- ==== Style Switcher Files ==== -->
     <link
       rel="stylesheet"
@@ -91,7 +97,7 @@
       <!-- === Main Content Start === -->
       <div class="main-content">
         <!-- === Home Section Start === -->
-        <section class="home section" id="home">
+        <section class="home active section" id="home">
           <div class="container">
             <div class="row">
               <div class="home-info padding-15">
@@ -106,7 +112,7 @@
                   experience, I specialize in crafting and designing websites,
                   among other skills.
                 </p>
-                <a href="#contact" class="btn hire-me">Hire Me</a>
+                <a href="#" class="btn">Download CV</a>
               </div>
               <div class="home-img padding-15">
                 <img src="images/hero2.PNG" alt="profile-image" />
@@ -176,8 +182,13 @@
                     </div>
                     <div class="row">
                       <div class="buttons padding-15">
-                        <a href="#" class="btn">Download CV</a>
-                        <a href="#contact" class="btn hire-me">Hire Me</a>
+                        <!-- <a href="#" class="btn">Download CV</a> -->
+                        <a
+                          href="#contact"
+                          data-section-index="1"
+                          class="btn hire-me"
+                          >Hire Me</a
+                        >
                       </div>
                     </div>
                   </div>
@@ -636,5 +647,11 @@
       </div>
     </div>
     <!-- ==== Main Style Switcher End ==== -->
+    <!-- <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/typed.umd.js"
+      integrity="sha512-+2pW8xXU/rNr7VS+H62aqapfRpqFwnSQh9ap6THjsm41AxgA0MhFRtfrABS+Lx2KHJn82UOrnBKhjZOXpom2LQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script> -->
   </body>
 </html>
